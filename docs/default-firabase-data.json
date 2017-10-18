@@ -1,7 +1,7 @@
 {
   "partners" : [ {
     "logos" : [ {
-      "logoUrl" : "../images/logos/google.svg",
+      "logoUrl" : "../images/logos/google.png",
       "name" : "Google",
       "url" : "https://www.google.lv/intl/en/about/"
     },
@@ -121,6 +121,11 @@
         "logoUrl" : "../images/logos/startinlv.png",
         "name" : "Start In LV",
         "url" : "http://startin.lv/"
+      },
+      {
+        "logoUrl" : "../images/logos/proandroiddev.png",
+        "name" : "Pro Android Dev",
+        "url" : "https://proandroiddev.com/"
       }
   ],
     "title" : "Partners",
