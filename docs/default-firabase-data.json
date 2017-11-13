@@ -25,6 +25,11 @@
       "logoUrl" : "../images/logos/testdevlab.png",
       "name" : "Test Dev Lab",
       "url" : "https://www.testdevlab.com/"
+    },
+    {
+      "logoUrl" : "../images/logos/nevercode.png",
+      "name" : "Nevercode",
+      "url" : "https://nevercode.io/"
     }
   ],
     "title" : "Sponsors",
