@@ -67,6 +67,15 @@
   <link rel="dns-prefetch" href="https://apis.google.com">
   <link rel="dns-prefetch" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  
+  <script>
+    navigator.serviceWorker.getRegistrations().then(
+      function(registrations) {
+        for(let registration of registrations) {
+          registration.unregister();
+        }
+     });
+  </script>
 
   <!-- Unsupported browser checks need to come before webcomponents.js is loaded,
        otherwise unsupported browsers will error out and not record a pageview.
